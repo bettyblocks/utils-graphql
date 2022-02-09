@@ -6,8 +6,8 @@
   "presets": [
     [
       "@babel/preset-env",
-      {"modules": false, "spec": true, "useBuiltIns": "usage"}
+      {"modules": false, "spec": true, "useBuiltIns": "usage", "corejs": 3}
     ],
-    "@babel/preset-flow",
+    "@babel/preset-flow"
   ]
 }

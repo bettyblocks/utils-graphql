@@ -44,15 +44,21 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.17.2",
+    "core-js": "^3.6.5",
     "graphql": "^15.8.0"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
+    "@babel/core": "7.13.0",
+    "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining": "7.16.7",
+    "@babel/plugin-proposal-class-static-block": "^7.16.7",
     "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-flow": "^7.16.7",
     "@commitlint/cli": "7.2.1",
     "@commitlint/config-conventional": "7.1.2",
     "@commitlint/prompt-cli": "7.2.1",
     "babel-eslint": "10.0.1",
+    "babel-plugin-polyfill-corejs3": "^0.5.2",
     "doctoc": "1.4.0",
     "documentation": "9.0.0",
     "eslint": "5.10.0",

@@ -1,47 +1,26 @@
-# @jumpn/utils-graphql
+# @betty-blocks/utils-graphql
 
 > GraphQL utilities
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- START doctoc -->
+
 <!-- END doctoc -->
-
-- [Installation](#installation)
-  - [Using npm](#using-npm)
-  - [Using yarn](#using-yarn)
-- [Types](#types)
-- [API](#api)
-  - [errorsToString](#errorstostring)
-    - [Parameters](#parameters)
-    - [Examples](#examples)
-  - [getOperationType](#getoperationtype)
-    - [Parameters](#parameters-1)
-    - [Examples](#examples-1)
-  - [hasSubscription](#hassubscription)
-    - [Parameters](#parameters-2)
-  - [requestFromCompat](#requestfromcompat)
-    - [Parameters](#parameters-3)
-    - [Examples](#examples-2)
-  - [requestToCompat](#requesttocompat)
-    - [Parameters](#parameters-4)
-    - [Examples](#examples-3)
-- [License](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Installation
 
 ### Using [npm](https://docs.npmjs.com/cli/npm)
 
-    $ npm install --save @jumpn/utils-graphql
+    $ npm install --save @betty-blocks/utils-graphql
 
 ### Using [yarn](https://yarnpkg.com)
 
-    $ yarn add @jumpn/utils-graphql
+    $ yarn add @betty-blocks/utils-graphql
 
 ## Types
 
 ```javascript
+export type {DocumentNode} from "graphql/language/ast";
+
 type GqlErrorLocation = {|
   line: number,
   column: number

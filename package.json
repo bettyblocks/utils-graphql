@@ -1,6 +1,6 @@
 {
   "name": "@betty-blocks/utils-graphql",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "GraphQL utilities",
   "module": "dist/index.js",
   "main": "compat/cjs/index.js",
